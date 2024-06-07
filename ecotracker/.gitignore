@@ -1,4 +1,60 @@
-# Ignore build artifacts
-build/
+# Flutter/Dart specific files
 .dart_tool/
-.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+build_runner/
+/.idea
+.vscode
+*.iml
+
+# macOS specific files
+.DS_Store
+
+# Android specific files
+android/.gradle
+android/app/build/
+android/build/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+
+# iOS specific files
+ios/Pods/
+ios/Podfile.lock
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/GeneratedPluginRegistrant.h
+ios/GeneratedPluginRegistrant.m
+ios/Pods/
+ios/*.xcworkspace
+ios/*.pbxproj
+
+# Windows specific files
+windows/Flutter/ephemeral/.plugin_symlinks
+windows/Flutter/ephemeral/flutter_export_environment.sh
+windows/Flutter/flutter_export_legacy.sh
+windows/Flutter/flutter_export_release.sh
+windows/Flutter/flutter_windows.dll
+windows/Flutter/flutter_windows.dll.exp
+windows/Flutter/flutter_windows.dll.lib
+windows/Flutter/flutter_windows.dll.pdb
+windows/Flutter/flutter_windows.dll.so
+windows/Flutter/flutter_windows.dll.symbol
+windows/Flutter/flutter_windows.dll.vc140.pdb
+windows/Flutter/flutter_windows.dll.vcxproj
+windows/Flutter/flutter_windows.dll.vcxproj.filters
+windows/Flutter/flutter_windows.vcxproj
+windows/Flutter/flutter_windows.vcxproj.filters
+windows/Flutter/icudtl.dat
+windows/flutter/third_party/tcmalloc/generic_allocator.h
+windows/flutter/third_party/tcmalloc/generic_heap.h
+windows/flutter/third_party/tcmalloc/internal_logging.h
+windows/flutter/third_party/tcmalloc/internal_macros.h
+windows/flutter/third_party/tcmalloc/internal_transfer.h
+windows/flutter/third_party/tcmalloc/page_heap_allocator.h
+windows/flutter/third_party/tcmalloc/preamble.h
+windows/flutter/third_party/tcmalloc/static_vars.h
